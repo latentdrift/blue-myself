@@ -64,24 +64,24 @@ modules:
     nofile-limits: true
     brew-analytics: false
 
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - CaskaydiaCove
-        - FiraCode
-        - GohuFont
-        - Hack
-        - Iosevka
-        - IosevkaTerm
-        - JetBrainsMono
-        - Noto
-        - OpenDyslexic
-        - RobotoMono
-        - SauceCodePro
-        - Symbols
-      google-fonts:
-        - Roboto
-        - Inter
-        - Quicksand
+  # - type: fonts
+  #   fonts:
+  #     nerd-fonts:
+  #       - CaskaydiaCove
+  #       - FiraCode
+  #       - GohuFont
+  #       - Hack
+  #       - Iosevka
+  #       - IosevkaTerm
+  #       - JetBrainsMono
+  #       - Noto
+  #       - OpenDyslexic
+  #       - RobotoMono
+  #       - SauceCodePro
+  #       - Symbols
+  #     google-fonts:
+  #       - Roboto
+  #       - Inter
+  #       - Quicksand
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
