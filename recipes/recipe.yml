@@ -30,6 +30,12 @@ modules:
     install:
       packages:
         - niri
+        - xdg-desktop-portal
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-gnome
+        - gnome-keyring
+        - dunst
+        - nautilus
         - waybar
         - greetd
         - greetd-gtkgreet
