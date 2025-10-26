@@ -58,6 +58,7 @@ modules:
         - tealdeer
         - zoxide
         - nmap
+        - dnf-plugins-core
         - brave-browser
 #    remove:
 #      packages:
