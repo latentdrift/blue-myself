@@ -66,13 +66,14 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-#          - org.brave.Browser
+          - com.brave.Browser
           - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
 
-  - type: brew
-    nofile-limits: true
-    brew-analytics: false
+  - type: chezmoi
+    repository: "https://github.com/latentdrift/dotfiles"
+    all-users: true
+    file-conflict-policy: skip
 
   # - type: fonts
   #   fonts:
