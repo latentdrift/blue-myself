@@ -22,7 +22,7 @@ modules:
     install:
       - v4l2loopback
 
-  - type: blind
+  - type: bling
     install:
       - 1password
 
