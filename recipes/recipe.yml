@@ -64,6 +64,8 @@ modules:
         - nmap
         - dnf-plugins-core
         - brave-browser
+        - zsh
+        - nu
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
