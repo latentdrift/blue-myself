@@ -87,24 +87,23 @@ modules:
     all-users: true
     file-conflict-policy: skip
 
-  # - type: fonts
-  #   fonts:
-  #     nerd-fonts:
-  #       - CaskaydiaCove
-  #       - FiraCode
-  #       - GohuFont
-  #       - Hack
-  #       - Iosevka
-  #       - IosevkaTerm
-  #       - JetBrainsMono
-  #       - Noto
-  #       - OpenDyslexic
-  #       - RobotoMono
-  #       - SauceCodePro
-  #       - Symbols
-  #     google-fonts:
-  #       - Roboto
-  #       - Inter
-  #       - Quicksand
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - CascadiaCove
+        - FiraCode
+        - Gohu
+        - Hack
+        - Iosevka
+        - IosevkaTerm
+        - JetBrainsMono
+        - Noto
+        - OpenDyslexic
+        - RobotoMono
+        - NerdFontsSymbolsOnly
+      google-fonts:
+        - Roboto
+        - Inter
+        - Quicksand
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
