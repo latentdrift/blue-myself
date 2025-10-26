@@ -22,6 +22,10 @@ modules:
     install:
       - v4l2loopback
 
+  - type: kargs
+    kargs:
+      - nvidia-drm.modeset=1
+
   - type: dnf
     repos:
       copr:
