@@ -43,7 +43,6 @@ modules:
         - jq
         - bat
         - fzf
-        - eza
         - dust
         - duf
         - fd
@@ -51,8 +50,6 @@ modules:
         - tealdeer
         - zoxide
         - nmap
-        - lazygit
-        - doggo
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
