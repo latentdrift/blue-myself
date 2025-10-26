@@ -22,19 +22,13 @@ modules:
     install:
       - v4l2loopback
 
-  - type: kargs
-    kargs:
-      - nvidia-drm.modeset=1
-      - rd.driver.pre=nvidia
-      - rd.driver.pre=nvidia_modeset
-      - rd.driver.pre=nvidia_uvm
-      - rd.driver.pre=nvidia_drm
-
   - type: dnf
     repos:
       copr:
         - atim/starship
         - yalter/niri
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       packages:
         - niri
@@ -64,6 +58,7 @@ modules:
         - tealdeer
         - zoxide
         - nmap
+        - brave-browser
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
@@ -77,7 +72,6 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
-          - com.brave.Browser
           - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
 
