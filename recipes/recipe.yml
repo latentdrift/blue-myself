@@ -22,6 +22,10 @@ modules:
     install:
       - v4l2loopback
 
+  - type: blind
+    install:
+      - 1password
+
   - type: dnf
     repos:
       copr:
