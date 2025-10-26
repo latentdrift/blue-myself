@@ -39,10 +39,20 @@ modules:
         - fuzzel
         - starship
         - helix
+        - ripgrep
         - jq
         - bat
         - fzf
-        - ripgrep
+        - eza
+        - dust
+        - duf
+        - fd
+        - cheat
+        - tealdeer
+        - zoxide
+        - nmap
+        - lazygit
+        - doggo
 #    remove:
 #      packages:
         # example: removing firefox (in favor of the flatpak)
