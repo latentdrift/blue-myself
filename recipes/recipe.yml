@@ -25,6 +25,10 @@ modules:
   - type: kargs
     kargs:
       - nvidia-drm.modeset=1
+      - rd.driver.pre=nvidia
+      - rd.driver.pre=nvidia_modeset
+      - rd.driver.pre=nvidia_uvm
+      - rd.driver.pre=nvidia_drm
 
   - type: dnf
     repos:
