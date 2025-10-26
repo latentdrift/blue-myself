@@ -34,6 +34,7 @@ modules:
         - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
         - gnome-keyring
+        - gnome-keyring-pam
         - nautilus
         - waybar
         - greetd
