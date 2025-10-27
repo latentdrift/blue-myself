@@ -90,7 +90,7 @@ modules:
   - type: fonts
     fonts:
       nerd-fonts:
-        - CascadiaCove
+        - CascadiaCode
         - FiraCode
         - Gohu
         - Hack
